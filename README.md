@@ -16,7 +16,7 @@ BOARD_RECOVERYIMAGE_PARTITION_SIZE :=
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 
 BOARD_USERDATAIMAGE_PARTITION_SIZE :=
 ```
-#How do I get the correct partition value?
+### How do I get the correct partition value?
 Open your terminal (TWRP is fine) and enter:
 ```
 blockdev --getsize64 /dev/block/bootdevice/by-name/*every_partition_you_need*
