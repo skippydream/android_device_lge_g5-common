@@ -1,5 +1,5 @@
 # WARNING
-BoardConfig.mk doesn't contain PARTITION_SIZE values, which have to be added manually in this directory:
+[BoardConfigCommon.mk](https://github.com/skippydream/android_device_lge_g5-common/blob/lineage-15.1/BoardConfigCommon.mk) doesn't contain PARTITION_SIZE values, which have to be added manually in this directory:
 "device/lge/*your-specific-lgg5-device*/BoardConfig.mk"
 
 ## Why should I do it manually?
